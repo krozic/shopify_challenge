@@ -12,7 +12,7 @@ After sorting the data by 'order_amount', it is evident that there are extreme o
 
 ![order_data.png](./plots/order_data.png)
 
-Given this information, it would be more appropriate to report the median of the data since it is not affected by outliers. This value was found to be $284.00.
+The plot on the left shows how large the outliers are with respect to the bulk of the data while the plot on the right shows the distribution of the data without the outliers. Given this information, it would be more appropriate to report the median of the data since it is not affected by outliers. This value was found to be $284.00.
 
 All the code used to produce the plot and data above can be found in the 'main.py' file. 
 
