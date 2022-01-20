@@ -30,29 +30,3 @@ if __name__ == '__main__':
     # The more appropriate metric to use would be the median since it is not affected by outliers.
     orders.order_amount.median()
     # The median is $284.00 which is a more appropriate metric to report.
-
-
-
-
-
-
-
-
-# Scraps not used
-
-# There are single orders that are outliers
-# Using matplotlib
-# fig = plt.figure(figsize = (9, 7))
-# plt.boxplot(orders.order_amount)
-# plt.show()
-
-# Using seaborn
-# ax = sns.boxplot(data=orders.order_amount)
-# plt.title('Distribution of Order Amount')
-# plt.show()
-
-# Removing outliers to see the bulk of the data
-# ax = sns.boxplot(data=orders.order_amount, showfliers=False)
-# ax.set(ylim=(0, 800))
-# plt.title('Distribution of Order Amount (Outliers Removed)')
-# plt.show()
